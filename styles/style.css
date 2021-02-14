@@ -337,6 +337,20 @@
   right: 245px;
 }
 
+.features__bg {
+  background-image: url("../images/features-bg.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(49, 18, 81, 0)), color-stop(80.07%, #30124E));
+  background-image: url("../images/features-bg.png"), linear-gradient(180deg, rgba(49, 18, 81, 0) 0%, #30124E 80.07%);
+  background-color: #30124e;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features__content {
+  padding: 179px 0 189px;
+  height: 640px;
+  width: 999px;
+}
+
 .container {
   width: 1190px;
   margin: 0 auto;
