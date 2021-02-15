@@ -364,7 +364,7 @@
 
 .features__img {
   position: absolute;
-  top: 198px;
+  top: 188px;
   right: 245px;
 }
 
@@ -373,7 +373,7 @@
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
   position: absolute;
-  top: 198px;
+  top: 188px;
   right: 147px;
   height: 612px;
   width: 68px;
@@ -383,6 +383,108 @@
   font-size: 13px;
   letter-spacing: 6px;
   text-align: center;
+}
+
+.services {
+  width: 100%;
+  height: 1548px;
+  background-color: #150433;
+  position: relative;
+  z-index: -2;
+}
+
+.services .services__inner {
+  padding-top: 360px;
+  color: #FCFCFC;
+}
+
+.services .services__inner .services__title {
+  font-size: 45px;
+  line-height: 67px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.services .services__inner .services__intro-text {
+  width: 558px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.services .services__inner .services__items {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .services__inner .services__items .services__item {
+  height: 225px;
+  width: 320px;
+  margin-bottom: 82px;
+}
+
+.services .services__inner .services__items .services__item .marketing {
+  color: #F67110;
+}
+
+.services .services__inner .services__items .services__item .webdev {
+  color: #F61067;
+}
+
+.services .services__inner .services__items .services__item .webdesign {
+  color: #00F0B5;
+}
+
+.services .services__inner .services__items .services__item .services__item-icon {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: inline-block;
+  border-radius: 50%;
+  margin-bottom: 18px;
+  height: 72px;
+  width: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .services__inner .services__items .services__item .services__item-category {
+  margin-bottom: 27px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.services .services__inner .services__items .services__item .services__item-text {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.services .services__inner .learn-btn {
+  margin: 20px auto;
 }
 
 .container {
