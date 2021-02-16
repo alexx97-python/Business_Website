@@ -723,6 +723,18 @@
   border: 1px solid rgba(246, 16, 103, 0.5);
 }
 
+.footer {
+  background: #150433;
+  height: 560px;
+}
+
+.footer .footer__inner {
+  padding-top: 126px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .container {
   width: 1190px;
   margin: 0 auto;
