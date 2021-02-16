@@ -4,5 +4,79 @@
     .footer__inner{
         padding-top: 126px;
         display: flex;
+        justify-content: space-between;
+        color: $color-text-white;
+
+        .footer__logo-title{
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 43px;
+            letter-spacing: 2px;
+            margin-bottom: 17px;
+        }
+
+        .footer__logo-text{
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            width: 165px;
+        }
+
+        .footer__title-container{
+            margin-bottom: 27px;
+            border-bottom: 1px solid $color-text-pink;
+            text-align: center;
+            padding: 10px;
+            .footer__title{
+                font-size: 13px;
+                line-height: 26px;
+                letter-spacing: 6px;
+                font-weight: 800;
+            }
+        }
+        .footer__menu-content{
+            list-style: none;
+            font-size: 13px;
+            line-height: 28px;
+            letter-spacing: 1px;
+            font-weight: 700;
+            .footer__item-link{
+                text-decoration: none;
+                color: $color-text-white;
+            }
+        }
+        .footer__contact-content{
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            .footer__content-email{
+                margin-bottom: 10px;
+                &:before{
+                    content: url(../images/mail-icon.svg);
+                    margin-right: 18px;
+                }
+            }
+
+            .footer__content-phone{
+
+                &:before{
+                    content: url(../images/phone-small.svg);
+                    margin-right: 18px;
+                }
+            }
+        }
+        .footer__social-icons{
+            display: flex;
+            justify-content: space-between;
+
+            .footer__social-icon{
+                cursor: pointer;
+            }
+        }
+    }
+    .footer__rights{
+        color: $color-text-white;
+        margin-top: 65px;
+        text-align: center;
     }
 }
