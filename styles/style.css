@@ -487,6 +487,126 @@
   margin: 20px auto;
 }
 
+.people__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 774px;
+  position: relative;
+}
+
+.people__inner .people__top {
+  height: 50%;
+  width: 100%;
+}
+
+.people__inner .people__top .people__img-main {
+  position: absolute;
+  left: 30%;
+  top: -15%;
+}
+
+.people__inner .people__top .people__img-1 {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+
+.people__inner .people__top .people__img-2 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.people__inner .people__top .people__img-3 {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.people__inner .people__top .people__img-4 {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
+
+.people__inner .people__top .people__img-5 {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+.people__inner .people__top .people__img-6 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.people__inner .people__top .people__img-7 {
+  position: absolute;
+  top: 45%;
+  right: 0;
+}
+
+.people__inner .people__top .people__img-8 {
+  position: absolute;
+  top: 40%;
+  right: 45%;
+}
+
+.people__inner .people__bottom {
+  width: 100%;
+  height: 50%;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.people__inner .people__bottom .people__bottom-title {
+  width: 754px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.people__inner .people__bottom .people__bottom-author {
+  width: 460px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.people__inner .people__bottom .people__bottom-author .people__bottom-author-name {
+  color: #F61067;
+  font-weight: 800;
+}
+
 .container {
   width: 1190px;
   margin: 0 auto;
